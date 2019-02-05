@@ -1,0 +1,89 @@
+body{
+    width: 60%;
+    background-color: rgb(190, 189, 189);
+    margin:auto;
+    
+}
+header{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+nav ul li,nav ul li a{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 120px;
+    height: 100px; 
+    text-decoration: none;
+    background-color: rgb(239, 219, 2);
+    font-size: 20px;
+
+}
+nav ul li a{
+    box-sizing: border-box;
+    padding: 25% 15%; 
+    text-align: center;
+    font-style: oblique;
+    
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    float:left;
+    padding:15px;
+}
+
+section{
+    padding:30px 20px;
+}
+main{
+    padding:10px 50px;
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+.cap{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.education,.work-experiences{
+  
+    background-color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+}
+.work-experiences{
+    float: left;
+}
+.education{
+    float: right;
+}
+
+.Other_skills,.Languages{
+    background-color: rgb(187, 182, 182); 
+    border-radius: 8px;
+    padding-left: 50px;
+    margin: 10px 0 10px 0; 
+    clear: both;
+}
+main .profile_picture img{
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:40px 0 100px 0;
+}
+footer{
+    height: 50px;
+    background-color: rgb(239, 219, 2);
+}
+
